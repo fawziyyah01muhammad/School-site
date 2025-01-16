@@ -307,7 +307,7 @@ nav .fa {
   .nav-icons i {
     padding: 0 5px;
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
   }
   nav .fa {
     display: block;
@@ -359,7 +359,7 @@ nav .fa {
   transition: opacity 0.1s;
   background-color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .carousel-item1 {
     height: 100%;
     text-align: center;
@@ -427,7 +427,10 @@ nav .fa {
 .blue-btn:hover {
   color: white;
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
+  .sub-header {
+    height: 20vh;
+  }
   .about-us {
     flex-direction: column;
   }
@@ -475,9 +478,12 @@ nav .fa {
 .classes-col:hover {
   box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.5);
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .classes-row {
     flex-direction: column;
+  }
+  .classes h1 {
+    padding: 20px 0;
   }
 }
 
