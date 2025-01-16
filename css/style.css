@@ -45,23 +45,6 @@ nav {
   justify-content: space-between;
   border-bottom: 2px solid rgba(249, 247, 247, 0.692);
 }
-.nav-icons a span {
-  background-color: whitesmoke;
-  padding: 5px 8px;
-  border-radius: 50%;
-  color: black;
-  font-size: 10px;
-  font-weight: 700;
-  position: relative;
-  top: -15px;
-  left: -18px;
-}
-.nav-icons i {
-  padding: 0 0 9px 15px;
-  margin: 15px 10px;
-  font-size: 25px;
-  color: whitesmoke;
-}
 label {
   display: flex;
   gap: 20px;
@@ -193,9 +176,6 @@ label p {
 .nav-links button a.active {
   color: black;
 }
-.nav-icons i {
-  color: rgb(78, 162, 195);
-}
 nav .fa {
   display: none;
 }
@@ -213,12 +193,6 @@ nav .fa {
   }
   .fa-times {
     text-align: left;
-  }
-  .nav-icons i {
-    padding: 0;
-    border-left: none;
-    margin: 13px 10px 0 10px;
-    font-size: 12px;
   }
   .nav-links ul {
     display: block;
@@ -273,10 +247,6 @@ nav .fa {
 }
 
 @media screen and (min-width: 285px) and (max-width: 361px) {
-  .nav-icons a span {
-    top: -59px;
-    left: 70px;
-  }
   label p {
     font-size: 15px;
   }
@@ -300,14 +270,6 @@ nav .fa {
     border-radius: 10px;
     box-shadow: 0 0 2px #5f5f5f, 0 0 0 5px #ecf0f3, 8px 8px 15px #a7aaaf,
       -8px -8px 15px #fff;
-  }
-  .nav-icons {
-    margin: 0 0 0 10px;
-  }
-  .nav-icons i {
-    padding: 0 5px;
-    margin: 0;
-    font-size: 14px;
   }
   nav .fa {
     display: block;
