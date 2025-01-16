@@ -214,10 +214,11 @@ nav .fa {
   .fa-times {
     text-align: left;
   }
-  .nav-icons img {
+  .nav-icons i {
     padding: 0;
     border-left: none;
     margin: 13px 10px 0 10px;
+    font-size: 12px;
   }
   .nav-links ul {
     display: block;
@@ -306,7 +307,7 @@ nav .fa {
   .nav-icons i {
     padding: 0 5px;
     margin: 0;
-    font-size: 15px;
+    font-size: 12px;
   }
   nav .fa {
     display: block;
