@@ -14,17 +14,17 @@
         <div class="whole-container">
         <div class="header">
             <p>FAQs</p>
-            <p>Support</p>
             <p>Help</p> 
+            <p>Support</p>
             <div class="icons" style="float:right;">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-linkedin-in"></i>
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-youtube"></i>
-            </div>
+                </div>
         </div>
-        <nav id="main-nav-wrap">
+        <nav>
             <label><img src="./img/images.jpeg" alt="">
                <div> 
                 <h3>Hill Top</h3>
@@ -53,63 +53,59 @@
         </nav>
     </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-				aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-				aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-				aria-label="Slide 3"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-				aria-label="Slide 4"></button>
-		</div>
-        <div class="carousel-inner">
-            <div class="carousel-item carousel-item1 active max-auto">
-                <div class="carousel-text">
-                    <h1>Hill Top Model School</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                </div>
-            </div>
-            <div class="carousel-item carousel-item2">
-                <div class="carousel-text">
-                    <h1>Hill Top Model School</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                </div>
-            </div>
-            <div class="carousel-item carousel-item3">
-                <div class="carousel-text">
-                    <h1>Hill Top Model School</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                </div>
-            </div>
-            <div class="carousel-item carousel-item4">
-                <div class="carousel-text">
-                <h1>Hill Top Model School</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            </div>
-            </div>
-        </div>
-    </div>
 
-            <!-------- about us content -------->
-    <div class="about-us">
-		<div class="about-col">
-			<h1>We are one of the top exellent schools</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            </p>
-			<a href="" class="blue-btn">EXPLORE NOW</a>
+        <!-------- about us content -------->
+<section class="sub-header">
+    <h1>Contact</h1>
+</section>
+<!-------- contact us -------->
+<section class="locaton">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2018062.5377754625!2d7.476777661004616!3d8.923358659835968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e0!3m2!1sen!2sng!4v1645451390224!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
+<section class="contact-us">
+	<h1>Get in Touch</h1>
+	<div class="row">
+		<div class="contact-col">
+			<div>
+			<i class="fa fa-home"></i>
+			<span>
+			<h5>Hill Top Model School</h5>
+			<p>Maitumbi<br>Minna, Niger State</p>
+			</span>
 		</div>
-		<div class="about-col">
-			<img src="./Img/IMG_20220224_151132_849.jpeg">
+		<div>
+	
+			<i class="fa fa-phone"></i>
+			<span>
+			<h5>07035106062</h5>
+			<p>Monday to friday 8am to 1pm morning<br>Weekends 10pm to 4pm</p>
+			</span>
 		</div>
-</div>
-    
-    <!------------ Footer ------------>
-<section class="footer">
+		<div>
+			<i class="fa fa-envelope"></i>
+			<span>
+			<h5>mziyyah010@gmail.com</h5>
+			<p>Email us your query</p>
+			</span>
+		</div>
+		</div>
+		<div class= "contact-col">
+
+			<form action="form-handler.php" method="post">
+				<input type="text" name="name" placeholder="Enter your name" required>
+				<input type="email" name="email" placeholder="Enter email address" required>
+				<input type="text" name="subject" placeholder="Enter your subject" required>
+				<textarea rows="8" name="message" placeholder="Message" required></textarea>
+				<button type="submit" class="blue-btn">Send Message</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+ <!------------ Footer ------------>
+ <section class="footer">
     <div class="footer-row">
         <h2>Hill Top Model School</h2>
         <p>Beside El-Amin, Maitumbi <br> Minna Niger State</p>
@@ -118,8 +114,7 @@
     </div>
     <div class="footer-row">
         <h2>Quick Links</h2>
-        <ul>
-            <i class="fa fa-times" onclick ="hideMenu()"></i>          
+        <ul>          
         <li class="current"><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About Us</a></li>
         <li><a href="./Admission.html">Admission</a></li>
@@ -128,7 +123,6 @@
                 <li><a href="#">More<span><i class="fa-solid fa-angle-down"></i></span></a></li>
                 <div class="dropdown2-content">
                 <li><a href="./updates.html">Upades</a></li>
-                <!-- <li><a href="#department">Academics</a></li> -->
                 <li><a href="./results.html">Results</a></li>
                 </div>
                 </div>
@@ -141,8 +135,5 @@
         <button class="white-btn">Subscribe</button>
         </div>
 </section>
-
-    <script src="./JS/script.js"></script>
-    <script src="./JS/bootstrap.bundle.min.js"></script>
-  </body>
+      </body>
 </html>
